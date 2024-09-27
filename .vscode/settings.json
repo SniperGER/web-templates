@@ -1,0 +1,16 @@
+{
+  "typescript.preferences.quoteStyle": "single",
+  "eslint.quiet": true,
+  "[typescript][typescriptreact][json][jsonc]": {
+    "editor.tabSize": 2,
+    "editor.useTabStops": false,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "files.insertFinalNewline": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false
+  }
+}
