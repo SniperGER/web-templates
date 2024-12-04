@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ['airbnb-base', 'prettier'],
+  extends: ['plugin:react-hooks/recommended', 'airbnb-base', 'prettier'],
   rules: {
     'class-methods-use-this': 'off',
     'default-param-last': 'warn',
@@ -21,6 +21,7 @@ module.exports = {
     'no-bitwise': 'off',
     'no-console': 'off',
     'no-empty': 'off',
+    'no-empty-pattern': 'off',
     'no-lonely-if': 'off',
     'no-param-reassign': 'off',
     'no-plusplus': 'off',
@@ -30,6 +31,7 @@ module.exports = {
     'no-undef': 'off',
     'no-underscore-dangle': 'off',
     'no-unused-vars': 'off',
+    'react-refresh/only-export-components': 'warn',
     'prettier/prettier': 'error',
   },
   parser: '@typescript-eslint/parser',
@@ -37,5 +39,5 @@ module.exports = {
     ecmaVersion: 2020,
     tsconfigRootDir: __dirname,
   },
-  plugins: ['@typescript-eslint', 'prettier'],
+  plugins: ['react-hooks', 'react-refresh', '@typescript-eslint', 'prettier'],
 };

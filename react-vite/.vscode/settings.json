@@ -4,7 +4,7 @@
     "*.css": "tailwindcss"
   },
   "typescript.preferences.quoteStyle": "single",
-  "[typescript][typescriptreact][json][jsonc]": {
+  "[javascript][typescript][javascriptreact][typescriptreact][json][jsonc]": {
     "editor.codeActionsOnSave": {
       "source.organizeImports": "always"
     },
